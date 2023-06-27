@@ -1,15 +1,17 @@
 import astronaut from './../../assets/astronaut.png';
 import { Link } from 'react-router-dom';
+import logo from './../../assets/logo2.png';
+
 
 function Home() {
     return (
         <div>
             <div className="bg-[#49c5b6] h-[74rem] flex-col">
-                <div className="p-10 pt-20">
-                    <h1 className="text-2xl font-semibold text-white">
-                        alphaDTM<span className="text-black">.</span>
-                    </h1>
-                </div>
+                <Link to="/">
+                    <div className="fixed top-[3vh] left-[6vw] " >
+                        <img src={logo} alt="logo" width="80" />
+                    </div>
+                </Link>
                 <div className="self-center flex justify-center h-[30rem] items-center" >
                     <p className="text-6xl font-bold text-start w-min">
                         We are <span className="text-white">alphaDTM</span>.

@@ -1,7 +1,8 @@
-import Logo from './../../assets/logo6.png';
+import logo from './../../assets/logo2.png';
 
 import blackarrow from './../../assets/blackarrow.png';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
 
@@ -13,10 +14,12 @@ function Contact() {
     return (
         <div>
             <div className="bg-white h-min flex-col">
-                <div className='p-10 pt-4'>
-                    <img src={Logo} alt="Logo" width="80" />
-                </div>
-                <div className='p-10 pb-0'>
+                <Link to="/">
+                    <div className="fixed top-[3vh] left-[6vw] " >
+                        <img src={logo} alt="logo" width="80" />
+                    </div>
+                </Link>
+                <div className='p-10 pb-0 pt-40'>
                     <p className='font-[1000] text-8xl'>
                         Lets<br />talk.
                     </p>
