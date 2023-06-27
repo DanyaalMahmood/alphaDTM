@@ -1,8 +1,8 @@
-import MobileAbout from './mobile/About';
-import DesktopAbout from './desktop/About';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from "react";
+import MobileWhy from './mobile/Why';
+import DesktopWhy from './desktop/Why';
 
-function About() {
+function Why() {
     const [width, setWidth] = useState(window.innerWidth);
     const breakpoint = 620;
 
@@ -13,7 +13,8 @@ function About() {
         return () => window.removeEventListener("resize", handleWindowResize);
     }, []);
 
-    return width < breakpoint ? <MobileAbout /> : <DesktopAbout />;
+
+    return width < breakpoint ? <MobileWhy /> : <DesktopWhy/>;
 }
 
-export default About;
+export default Why;
