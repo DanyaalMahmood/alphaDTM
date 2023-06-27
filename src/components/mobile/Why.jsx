@@ -1,8 +1,14 @@
 import logo from './../../assets/logo2.png';
 import arrow from './../../assets/arrow.png';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+
 
 function Why() {
+
+    useEffect(() => {
+        window.scroll(0,0);
+    }, [])
     return (
         <div>
             <div className="bg-white h-min flex-col">
@@ -21,8 +27,8 @@ function Why() {
                <p className='text-white py-10 pb-0 text-lg font-bold'>What's Really amazing About Us?</p>
                <p className='text-white pb-4 pt-0 text-lg italic font-semibold -mt-2'>Our Result-Oriented Ideas.</p>
                <p className='text-white py-4 text-xs'>Anything can look good on paper. Just the thought of making thousands in sales sounds intimidating and winning clients with overpromising stats isn’t really difficult.</p>
-               <p className='text-white py-4 text-xs'>But that's not the Rad way of doing business. We only pitch ideas and strategies that are executable, guarantee results, and get the job done. We stay grounded and only create noise with the results.</p>
-               <p className='text-white py-4 text-xs'>In short, Rad is all about getting things done. No gibberish. Just results.</p>
+               <p className='text-white py-4 text-xs'>But that's not the alphaDTM way of doing business. We only pitch ideas and strategies that are executable, guarantee results, and get the job done. We stay grounded and only create noise with the results.</p>
+               <p className='text-white py-4 text-xs'>In short, alphaDTM is all about getting things done. No gibberish. Just results.</p>
                <p className='text-white italic text-lg pb-16'>#TheAlphaWay</p>
             </div>
             <div className='bg-[#1C1B20] h-min flex-col px-10 text-white py-20'>
@@ -37,7 +43,7 @@ function Why() {
                 <div>
                     <p className='border-[1px] border-black w-[3rem] h-[3rem] p-3 rounded-full flex justify-center items-center'>1</p>
                     <p className='py-5 text-xl font-black'>Staying connected <br/>with the world.</p>
-                    <p className='text-xs pb-8'>We truly widen our horizons, stay connected with the best in the business, and learn from other agencies and startups. Rad always knows what’s happening and trending.</p>
+                    <p className='text-xs pb-8'>We truly widen our horizons, stay connected with the best in the business, and learn from other agencies and startups. alphaDTM always knows what’s happening and trending.</p>
                 </div>
                 <div>
                     <p className='border-[1px] border-black w-[3rem] h-[3rem] p-3 rounded-full flex justify-center items-center'>2</p>

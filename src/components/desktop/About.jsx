@@ -119,8 +119,8 @@ function About() {
                 <div className='bg-[#F8F8F8] flex pl-40 h-[75vh]'>
                     <div className='w-full pt-20 w-full pr-20'>
                         <p className='text-4xl'><span className='font-black'>You won't fall,<br /></span> <span className='italic'>promise</span><span className='italic text-[#ffcb30] font-black'>!</span></p>
-                        <p className='py-12 text-sm'>The digital world changes every day. You wake up to new algorithms and boom, your last night’s strategy is now outdated. Our team at Rad keeps a close eye on the changing digital trends and quickly adapts to keep the show running.</p>
-                        <p className='text-sm pb-10'>We love learning new stuff and working on new platforms – which means we leave no avenue untapped when it comes to getting you the desired numbers. It’s all rad when you work with us!</p>
+                        <p className='py-12 text-sm'>The digital world changes every day. You wake up to new algorithms and boom, your last night’s strategy is now outdated. Our team at alphaDTM keeps a close eye on the changing digital trends and quickly adapts to keep the show running.</p>
+                        <p className='text-sm pb-10'>We love learning new stuff and working on new platforms – which means we leave no avenue untapped when it comes to getting you the desired numbers. It’s all smooth sailing when you work with us!</p>
                     </div>
                     <div className=' w-full relative'>
                         <motion.img src={test1} alt="Logo" width="175rem" className='absolute top-[2vh] left-[18vw]'
@@ -148,7 +148,7 @@ function About() {
                         <p className='font-bold text-5xl pb-3'>.</p>
                         <p className='font-black text-3xl'>Sit Back.</p>
                         <p className='text-3xl italic -mt-3'>And Grow</p>
-                        <p className='text-xs py-10'>Working with Rad means you don’t have to worry about checking your socials every day or worrying about costs per click, or just anything. We’ve got you covered.</p>
+                        <p className='text-xs py-10'>Working with alphaDTM means you don’t have to worry about checking your socials every day or worrying about costs per click, or just anything. We’ve got you covered.</p>
                     </div>
                 </div>
 
@@ -177,7 +177,7 @@ function About() {
                     <div className='z-10 w-full pr-60 pt-20 pl-10'>
                         <p className='font-black text-5xl -ml-40'>User-Friendly Designs</p>
                         <p className='text-5xl italic -mt-3 -ml-40'>Good Looks. Good <br />Functionality.</p>
-                        <p className='text-xl py-10 italic'>Our designs are innovative, beautiful, and user-centric. We are pretty rad with our designs!</p>
+                        <p className='text-xl py-10 italic'>Our designs are innovative, beautiful, and user-centric. We are pretty amazing with our designs!</p>
                         <p className='text-sm'>We don’t promise quick work because our team takes its sweet time perfecting every stroke. We create beautiful user experiences and never compromise on quality. That’s our sweet little secret.</p>
                     </div>
                 </div>

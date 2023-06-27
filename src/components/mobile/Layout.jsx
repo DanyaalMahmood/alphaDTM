@@ -4,7 +4,7 @@ import cross from './../../assets/cross.png';
 import facebook from './../../assets/facebook.png';
 import instagram from './../../assets/instagram.png';
 import linkedin from './../../assets/linkedin2.png';
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const variants = {
@@ -14,6 +14,9 @@ const variants = {
 
 function Layout() {
     const [menu, setMenu] = useState(false);
+    useEffect(() => {
+        window.scroll(0,0);
+    }, [])
 
 
     

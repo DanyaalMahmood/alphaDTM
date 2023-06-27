@@ -3,9 +3,14 @@ import working from './../../assets/working.jpg';
 import abstract from './../../assets/abstract.png';
 import { Link } from 'react-router-dom';
 import logo from './../../assets/logo2.png';
+import { useEffect } from 'react';
 
 
 function About() {
+
+    useEffect(() => {
+        window.scroll(0,0);
+    }, [])
     return (
         <div>
             <div className="bg-white h-min flex-col">
@@ -31,8 +36,8 @@ function About() {
             <div className='h-min flex-col'>
                 <div className='p-10'>
                     <p className='text-4xl'><span className='font-black'>You won't fall,</span> <span className='italic'>promise</span><span className='italic text-[#ffcb30] font-black'>!</span></p>
-                    <p className='py-12 text-xs'>The digital world changes every day. You wake up to new algorithms and boom, your last night’s strategy is now outdated. Our team at Rad keeps a close eye on the changing digital trends and quickly adapts to keep the show running.</p>
-                    <p className='text-xs pb-10'>We love learning new stuff and working on new platforms – which means we leave no avenue untapped when it comes to getting you the desired numbers. It’s all rad when you work with us!</p>
+                    <p className='py-12 text-xs'>The digital world changes every day. You wake up to new algorithms and boom, your last night’s strategy is now outdated. Our team at alphaDTM keeps a close eye on the changing digital trends and quickly adapts to keep the show running.</p>
+                    <p className='text-xs pb-10'>We love learning new stuff and working on new platforms – which means we leave no avenue untapped when it comes to getting you the desired numbers. It’s all smooth sailing when you work with us!</p>
                 </div>
                 <div className='pb-0 p-10'>
                     <div>
@@ -51,7 +56,7 @@ function About() {
                         <p className='font-bold text-5xl pb-3'>.</p>
                         <p className='font-black text-2xl'>Sit Back.</p>
                         <p className='text-3xl italic -mt-3'>And Grow</p>
-                        <p className='text-xs py-10'>Working with Rad means you don’t have to worry about checking your socials every day or worrying about costs per click, or just anything. We’ve got you covered.</p>
+                        <p className='text-xs py-10'>Working with alphaDTM means you don’t have to worry about checking your socials every day or worrying about costs per click, or just anything. We’ve got you covered.</p>
                     </div>
                 </div>
                 <div className='flex items-center justify-center '>
@@ -73,7 +78,7 @@ function About() {
                 <div className='p-10 pb-20 -mt-14'>
                     <p className='font-black text-4xl'>User-Friendly Designs</p>
                     <p className='text-5xl italic -mt-3'>Good Looks. Good Functionality.</p>
-                    <p className='text-xl py-10 italic'>Our designs are innovative, beautiful, and user-centric. We are pretty rad with our designs!</p>
+                    <p className='text-xl py-10 italic'>Our designs are innovative, beautiful, and user-centric. We are pretty amazing with our designs!</p>
                     <p className='text-xs'>We don’t promise quick work because our team takes its sweet time perfecting every stroke. We create beautiful user experiences and never compromise on quality. That’s our sweet little secret.</p>
                 </div>
                 <div className='p-10 pb-20 '>

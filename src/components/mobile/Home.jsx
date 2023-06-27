@@ -1,9 +1,14 @@
 import astronaut from './../../assets/astronaut.png';
 import { Link } from 'react-router-dom';
 import logo from './../../assets/logo2.png';
+import { useEffect } from 'react';
 
 
 function Home() {
+
+    useEffect(() => {
+        window.scroll(0,0);
+    }, [])
     return (
         <div>
             <div className="bg-[#49c5b6] h-[74rem] flex-col">
@@ -44,7 +49,7 @@ function Home() {
                     <p className='py-6 text-xs'>
                         At alphaDTM, we infuse every task with a touch of creativity and excitement. We strive to defy clichés and constantly showcase our innovative approach through remarkable projects. Our team never relies on conventional methods; instead, we deliver consistently cool and extraordinary outcomes.
                     </p>
-                    <Link to='/about'>
+                    <Link to='/about' >
                     <p className='italic underline underline-offset-4'>
                         About alpaDTM.
                     </p>

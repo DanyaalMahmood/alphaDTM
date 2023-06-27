@@ -1,10 +1,13 @@
 import logo from './../../assets/logo2.png';
 
 import blackarrow from './../../assets/blackarrow.png';
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Contact() {
+    useEffect(() => {
+        window.scroll(0,0);
+    }, [])
 
     const formRef = useRef(null);
     const handleSubmit = () => {
@@ -26,7 +29,7 @@ function Contact() {
                 </div>
             </div>
             <div className='bg-[#49c5b6] h-min flex-col px-10 -mt-6 py-16'>
-               <p className='text-white py-4 text-xs'>Anyone can do the creative talk, get you on a call, and almost make you pay for services you don’t really need. We don’t do the sweet talk. We can’t promise exponential growth. But Rad will take you closer to your business goals every freakin day – and that’s a promise.</p>
+               <p className='text-white py-4 text-xs'>Anyone can do the creative talk, get you on a call, and almost make you pay for services you don’t really need. We don’t do the sweet talk. We can’t promise exponential growth. But alphaDTM will take you closer to your business goals every freakin day – and that’s a promise.</p>
             </div>
             <div className='bg-[#1C1B20] h-min flex-col px-10 text-white py-10 pb-20'>
                 <p className='text-3xl font-black'>It's time <br/>to do things</p>

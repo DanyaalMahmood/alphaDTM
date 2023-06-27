@@ -42,7 +42,7 @@ function Contact() {
                     </p>
                 </div>
                 <div className='z-0 px-20 pl-[50vw] bg-[#49c5b6] h-[36vh] flex items-center px-10 py-16'>
-                    <p className='text-white py-4 text-lg'>Anyone can do the creative talk, get you on a call, and almost make you pay for services you don’t really need. We don’t do the sweet talk. We can’t promise exponential growth. But Rad will take you closer to your business goals every freakin day – and that’s a promise.</p>
+                    <p className='text-white py-4 text-lg'>Anyone can do the creative talk, get you on a call, and almost make you pay for services you don’t really need. We don’t do the sweet talk. We can’t promise exponential growth. But alphaDTM will take you closer to your business goals every freakin day – and that’s a promise.</p>
                 </div>
             </div>
 
